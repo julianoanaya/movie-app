@@ -11,3 +11,6 @@ actor = Actor.new({first_name: "Andrew", last_name: "Garfield", known_for: "Spid
 actor.save
 actor = Actor.new({first_name: "Robert", last_name: "Pattinson", known_for: "The Batman"})
 actor.save
+Movie.create({title: "Spider-Man No way home", year: 2022, plot: "Superheros"})
+Movie.create({title: "Doctor Starnge", year: 2022, plot: "Mysterious"})
+Movie.create({title: "Knives out", year: 2019, plot: "Suspence"})
