@@ -1,0 +1,5 @@
+### Products index
+GET http://localhost:3000/movies
+
+### Products show
+GET http://localhost:3000/movies/1
