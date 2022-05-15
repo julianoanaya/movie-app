@@ -1,0 +1,25 @@
+GET http://localhost:3000/actors
+
+### Products show
+GET http://localhost:3000/actors/12
+
+### create
+POST http://localhost:3000/actors
+Content-Type: application/json
+
+{
+    "first_name": "test",
+    "last_name": "test",
+    "known_for": "a test"
+}
+
+### update
+PATCH http://localhost:3000/actors/12
+Content-Type: application/json
+
+{
+    "first_name": "test 2"
+}
+
+### destroy
+DELETE http://localhost:3000/actors/4

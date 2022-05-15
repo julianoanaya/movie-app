@@ -1,0 +1,9 @@
+What would be the HTTP verb and url combination that would retrieve a list of all events?
+the http verb would be get that would asl obe the url 
+What would be the HTTP verb and url combination that would retrieve the event with id of 4?
+the verb would also be verb
+If you saw the HTTP verb and url combination "POST /events", using REST principles what action would it be performing?
+it would create a new event (event being a new instance)
+What is the :id portion of the route doing? Why do we use id?
+we add :id so that we can specify a certain instance and go to it
+Link your updated movie-app below:

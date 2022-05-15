@@ -1,0 +1,26 @@
+### Products index
+GET http://localhost:3000/movies
+
+### Products show
+GET http://localhost:3000/movies/1
+
+### create
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title": "Nemo",
+    "year": 200,
+    "plot": "A fish gets lost"
+}
+
+### update
+PATCH http://localhost:3000/movies/6
+Content-Type: application/json
+
+{
+    "year": 200
+}
+
+### destroy
+DELETE http://localhost:3000/movies/4
