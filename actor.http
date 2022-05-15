@@ -10,7 +10,9 @@ Content-Type: application/json
 {
     "first_name": "test",
     "last_name": "test",
-    "known_for": "a test"
+    "known_for": "a test",
+    "age": 42,
+    "gender": "test"
 }
 
 ### update
