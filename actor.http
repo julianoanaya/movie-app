@@ -1,7 +1,7 @@
 GET http://localhost:3000/actors
 
 ### Products show
-GET http://localhost:3000/actors/12
+GET http://localhost:3000/actors/1
 
 ### create
 POST http://localhost:3000/actors
@@ -12,7 +12,8 @@ Content-Type: application/json
     "last_name": "test",
     "known_for": "a test",
     "age": 42,
-    "gender": "test"
+    "gender": "test",
+    "movie_id": 3
 }
 
 ### update

@@ -13,7 +13,8 @@ class ActorsController < ApplicationController
             last_name: params[:last_name],
             known_for: params[:known_for],
             age: params[:age],
-            gender: params[:gender]
+            gender: params[:gender],
+            movie_id: params[:movie_id]
         )
         actor.save
         render json: actor.as_json
